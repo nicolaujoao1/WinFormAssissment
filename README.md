@@ -40,7 +40,14 @@ Para configurar o banco de dados, siga os passos abaixo:
 1. Navegue até o diretório do projeto `AssessmentApp.Data`.
 2. No Visual Studio, vá para **Ferramentas > Gerenciador de Pacotes NuGet > Console do Gerenciador de Pacotes**.
 3. No **Console do Gerenciador de Pacotes**, selecione `AssessmentApp.Data` como o projeto padrão.
-4. Execute o seguinte comando:
+-Antes de aplicar as migrações ao banco de dados, certifique-se de que a string de conexão está configurada corretamente. A string de conexão pode ser encontrada na classe `ConnectionString` conforme o exemplo abaixo:
 
+```csharp
+public static class ConnectionString
+{
+    public const string connectionString = @"Server=localhost;Database=Db_Task_App;User=root;Password='';";
+}
+```
+4. Execute o seguinte comando:
    ```bash
    Update-Database
