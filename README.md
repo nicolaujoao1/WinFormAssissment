@@ -1,6 +1,6 @@
 # WinForm Assessment Application
 
-Este repositório contém a aplicação Windows Forms para avaliação e gerenciamento de veículos. Siga as instruções abaixo para clonar, configurar e rodar o projeto.
+Este repositório contém a aplicação Windows Forms com autenticaç]ao, consumo de API e gerenciamento de veículos. Siga as instruções abaixo para clonar, configurar e rodar o projeto.
 
 ## Pré-requisitos
 
